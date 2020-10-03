@@ -1,16 +1,12 @@
-# virtual_vet
+# Virtual Vet (VetBabble Assignment)
 
-A new Flutter project.
+This project is part of an assignment for VetBabble
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Custom designs are always a challenge and take more time to complete. My approach was to keep it simple and modular.
 
-A few resources to get you started if this is your first Flutter project:
+I used stateless widget at most places. Only Today's Tasks widget was Stateful since I needed to show user response when a task was completed. 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Only one dependency was used (for SVG assets) since SVG are best choices for icons and we can dynamically change it's color.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
